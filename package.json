@@ -1,0 +1,23 @@
+{
+  "name": "homework-65",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.8",
+    "gh-pages": "^6.3.0"
+  }
+}
